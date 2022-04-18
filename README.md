@@ -26,21 +26,40 @@ List of features:
 - As a registered User, I can view ongoing giveaways and add one entry per giveaway.
 - As a registered User, I can create a new giveaway with a specific expiration date and time. I can search for the book I will be giving away and have the image and title displayed on the giveaway.
 - As a registered User, I can make adjustments to my registered profile.
+- As a registered User, I can leave comments on a Giveaway and respond to others' comments.
 
 Stretch Goals:
 
 - Viewing all past winners of giveaways.
-- Commenting on giveaways/ideas for future giveaways.
 
-Getting Started
-
+## Getting Started
+- Clone the repository
 ```
-In progress
+git clone https://github.com/java-gcp-220228/readaway-frontend.git
 ```
+- Build the project
+```
+npm run build
+```
+- Run a development Server and optional mock API
+```
+npm run start
+npm run server
+```
+- Change URLs as needed to connect to a woking backend API or the provided mock API
 
-Usage
+## Usage
+<br>
+    <a href="https://readaway-site.web.app/home" target="_blank">Link to Website</a>
+<br>
 
-    ** In progress
+
+   <img src="https://storage.googleapis.com/misc-github-images-bucket/home-page.PNG" width="500" height="300" />
+
+   <img src="https://storage.googleapis.com/misc-github-images-bucket/about.PNG" width="500" height="300" />
+   <img src="https://storage.googleapis.com/misc-github-images-bucket/giveaway-create.PNG" width="500" height="300" />
+   <img src="https://storage.googleapis.com/misc-github-images-bucket/giveaway-display.PNG" width="500" height="300" />
+   <br>
 
 ## Contributors
 - Jodhbir Bahugan
